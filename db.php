@@ -1,8 +1,8 @@
 <?php
 $host = '81.31.246.182';
 $db   = 'BookFlow';
-$user = 'bookflow';
-$pass = 'Rn2=\O%khU+L;T';
+$user = '';
+$pass = '';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
