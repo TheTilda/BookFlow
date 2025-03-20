@@ -203,7 +203,11 @@ $users = $pdo->query("
     </style>
 </head>
 <body>
+    <a href="/books.php" class="btn btn-primary">
+                        <i class="fas fa-arrow-left"></i> На главную
+    </a>
     <div class="admin-container">
+        
         <h1 class="text-center mb-4">Админ-панель</h1>
 
         <!-- Уведомления -->

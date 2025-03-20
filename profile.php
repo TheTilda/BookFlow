@@ -209,6 +209,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_profile'])) {
                     <button type="submit" name="update_profile" class="btn btn-primary">
                         <i class="fas fa-save me-2"></i>Сохранить изменения
                     </button>
+                    <a href="/admin.php" class="btn btn-primary">
+                        <i class="fas fa-sign-out-alt me-2"></i>Админ-панель
+                    </a>
                     <a href="/src/actions/logout.php" class="btn btn-danger">
                         <i class="fas fa-sign-out-alt me-2"></i>Выйти
                     </a>
