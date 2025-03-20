@@ -140,7 +140,7 @@ $books = $stmt->fetchAll();
                 <?php foreach($books as $value): ?>
                     <div class="col-md-3">
                         <div class="book-card card h-100">
-                            <img src="/books/<?= $value['id']?>/image.jpg" class="card-img-top" alt="Обложка книги">
+                            <img src="/books/<?= $value['id']?>/<?= $value['cover_image']?>" class="card-img-top" alt="Обложка книги">
                             <div class="card-body">
                                 <h5 class="card-title"><?= $value['title'] ?></h5>
                                 <p class="card-text text-muted">Автор</p>
