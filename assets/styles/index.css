@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #2A4B7C;
+    --secondary-color: #5BA4E6;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: rgba(255,255,255,0.95) !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.hero-section {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 120px 0;
+}
+
+.feature-card {
+    transition: transform 0.3s;
+    border: none;
+    border-radius: 15px;
+}
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.book-card {
+    transition: transform 0.3s;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.book-card img {
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+.book-card:hover {
+    transform: translateY(-5px);
+}
+.book-card:hover img {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+}

@@ -1,0 +1,18 @@
+.auth-form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 330px;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+}
+
+input{
+    width: 100%;
+}
